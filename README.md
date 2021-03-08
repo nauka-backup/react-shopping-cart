@@ -34,3 +34,10 @@ The project presents website with the random joke generator in the idea of dad j
 
 This project is being deployed on GitHup Pages.
 Here is the link! [Mobile Company Website!]()
+
+dress1.jpg by Zdjęcie autorstwa Godisable Jacob z Pexels
+dress2.jpg by Zdjęcie autorstwa Quang Anh Ha Nguyen z Pexels
+dress3.jpg by Zdjęcie autorstwa Lena Hsvl z Pexels
+dress4.jpg by Zdjęcie autorstwa Ferdinand Studio z Pexels
+dress5.jpg by Zdjęcie autorstwa Andrea Piacquadio z Pexels
+dress6.jpg by Zdjęcie autorstwa Quang Anh Ha Nguyen z Pexels
