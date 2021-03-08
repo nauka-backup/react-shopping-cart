@@ -1,0 +1,43 @@
+/* ------------------ po zalogowaniu */
+.hero {
+    width: 80vw;
+    min-height: 400px;
+    background: rgb(31, 34, 65);
+}
+
+.hero nav {
+    background: #603bbb;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero nav h2 {
+    color: #fff;
+}
+
+.user-icons {
+    display: flex;
+    flex-direction: row;
+    font-size: 100px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.user-text {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+    .user-icons {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
