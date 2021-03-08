@@ -8,8 +8,8 @@
     grid-template-columns: 200px 1fr;
     background-color: rgb(55, 64, 97);
     color: rgb(226, 223, 223);
-    height: 100vh;
-    padding: 60px;
+    height: 100%;
+    padding: 20px;
 }
 .grid-title {
     grid-area: header;
@@ -25,5 +25,14 @@
 }
 main {
     grid-area: main;
-    padding: 30px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main {
+    flex: 3 300px;
+}
+.sidebar {
+    flex: 1 100px;
 }
