@@ -18,13 +18,10 @@
     display: flex;
 }
 .cart-items li div {
-    padding: 0.5rem;
+    padding: 5px;
 }
 .cart-items li div:last-child {
     flex: 1;
-}
-.right {
-    text-align: center;
 }
 .total {
     display: flex;
@@ -46,7 +43,7 @@
 .form-container li {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 5px;
 }
 input {
     padding: 10px;

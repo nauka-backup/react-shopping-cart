@@ -50,3 +50,52 @@
 .button.primary:hover {
     background-color: #c9c4c4;
 }
+
+.modal {
+    padding: 200px 50px;
+}
+.product-details {
+    display: flex;
+    justify-content: space-around;
+    max-height: 96vh;
+}
+.product-details img {
+    width: 400px;
+    height: 600px;
+    margin-right: 100px;
+}
+.product-details-description {
+    margin: 1rem;
+    width: 40%;
+    margin-bottom: 100px;
+}
+.product-price {
+    margin-top: 100px;
+}
+.close-modal {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    z-index: 1000;
+    width: 50px;
+    font-size: 25px;
+    font-weight: 800;
+}
+@media screen and (max-width: 768px) {
+    .product-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70vh;
+    }
+    .product-details img {
+        width: 200px;
+        height: 360px;
+        margin-right: 100px;
+    }
+    .product-details-description {
+        margin: 1rem;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+}
