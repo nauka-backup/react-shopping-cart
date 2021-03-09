@@ -31,8 +31,8 @@ main {
     flex-wrap: wrap;
 }
 .main {
-    flex: 3 300px;
+    flex: 3 200px;
 }
 .sidebar {
-    flex: 1 100px;
+    flex: 1 200px;
 }
