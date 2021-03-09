@@ -26,6 +26,9 @@ The project presents website with the random joke generator in the idea of dad j
 -   Firebase login system
 -   Svg pictures from [Undraw](http://undraw.co/)
 -   Original photo made by Buro Millennial from [Pexels](http://www.pexels.com)
+-   localstorage to retriev and setdata
+-   react-modal for popping modalwindow
+-   react-reveal for zooming the clicked modal
 
 ### How to Start
 

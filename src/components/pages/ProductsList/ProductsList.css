@@ -36,3 +36,12 @@ main {
 .sidebar {
     flex: 1 200px;
 }
+@media screen and (max-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'header header'
+            'aside aside'
+            'main main';
+    }
+}
