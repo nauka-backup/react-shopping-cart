@@ -21,7 +21,7 @@ The project presents website with the random joke generator in the idea of dad j
 -   React Hooks
 -   React Redux
 -   React Icons
--   mongoDB
+-   simple backend using node.js, express and mongoDB. express as a web server. body-parser to parse the data inside the post request. mongoose connects us to the mongoDB database and shortid is a library to create a user friendly id to save as a product
 -   Postman
 -   Firebase login system
 -   Svg pictures from [Undraw](http://undraw.co/)
