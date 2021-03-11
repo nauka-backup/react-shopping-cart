@@ -110,6 +110,9 @@ class Products extends Component {
     }
 }
 // first paramenter is fnction that accept state and return an object that define which part of the state we will be use(which part of redux we will use). 2 parameter of connect is list of actions. connect fn itself return another function - it accept parameter and it is a name of component we will connect.
-export default connect((state) => ({ products: state.products.items }), {
-    fetchProducts,
-})(Products);
+export default connect(
+    (state) => ({ products: state.products.filteredItems }),
+    {
+        fetchProducts,
+    }
+)(Products);
